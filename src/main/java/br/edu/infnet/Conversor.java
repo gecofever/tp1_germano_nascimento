@@ -11,7 +11,7 @@ public class Conversor {
         if (a > 0 && b > 0) {
             return a * b;
         } else {
-            throw new ValorInvalidoException("Ambos os números devem ser positivos");
+            throw new ValorInvalidoException("Os números devem ser positivos");
         }
     }
 }
